@@ -1,0 +1,1 @@
+{"source":{"0":"2.js","1":"1.js"},"data":{"0":"try {\n    let result = calculate(5, 10);\n    console.log(result);\n} catch (error) {\n    console.error(\"An error occurred:\", error);\n}\n","1":"if a:\n    return True"}}

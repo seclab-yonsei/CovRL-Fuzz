@@ -1,0 +1,8 @@
+pytest
+tqdm==4.66.5
+psutil==6.0.0
+numpy==1.26.4
+pandas==2.2.2
+torch>=2.2.0
+transformers==4.46.2
+accelerate>=1.1.1

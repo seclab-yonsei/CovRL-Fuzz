@@ -1,0 +1,25 @@
+{
+    "testsuites": ["tests/resources/test_load"],
+    "save_dir": "saved",
+
+    "seed": 42,
+    "load_path": "Salesforce/codet5p-220m",
+    "critic_epochs": 2,
+    "actor_epochs": 1,
+    "total_batch_size": 256,
+    "train_batch_size": 8,
+    "eval_batch_size": 32,
+    "learning_rate": 1e-4,
+
+    "n_samples": 32,
+    "model_max_length": 768,
+    "mask_probability": 0.15,
+
+    "train_dataset_path": "tests/resources/test_finetuner/train_dataset.json",
+    "dev_dataset_path": "path_to_dev_dataset",
+
+    "target_interpreter": "target_name",
+    "interpreter_path": "path_to_interpreter",
+    "alpha": 0.6,
+    "beta": 1.0
+}
